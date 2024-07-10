@@ -1,0 +1,28 @@
+{
+  "bindingCulture": {
+    "name": "en-US"
+  },
+  "language": {
+    "feature": "en",
+    "tool": "en"
+  },
+  "unitTestProvider": {
+    "name": "nunit",
+    "generatorProvider": "nunit"
+  },
+  "plugins": [
+    {
+      "name": "SpecFlow.NUnit",
+      "type": "Generator"
+    },
+    {
+      "name": "SpecFlow.NUnit",
+      "type": "Runtime"
+    },
+    {
+      "name": "SpecFlow.Tools.MsBuild.Generation",
+      "type": "Generator"
+    }
+  ],
+  "stepAssemblies": []
+}
